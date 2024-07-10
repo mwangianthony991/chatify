@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chatify/static/css/main.c242cb43.css",
+    "main.js": "/chatify/static/js/main.0f2366bb.js",
+    "static/media/alt-bg.jpg": "/chatify/static/media/alt-bg.4458dc38d3682ec594be.jpg",
+    "index.html": "/chatify/index.html",
+    "main.c242cb43.css.map": "/chatify/static/css/main.c242cb43.css.map",
+    "main.0f2366bb.js.map": "/chatify/static/js/main.0f2366bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c242cb43.css",
+    "static/js/main.0f2366bb.js"
+  ]
+}
