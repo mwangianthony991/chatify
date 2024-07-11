@@ -291,7 +291,7 @@ const GroupChat = () => {
                                             ? <img src={file.url} alt="" />
                                             : (
                                                 <video id="video" onClick={handleVideoPlayback}>
-                                                    <source src={file.file} type={file.type} />
+                                                    <source src={file.url} type={file.type} />
                                                 </video>
                                             )
                                         }

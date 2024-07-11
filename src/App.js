@@ -1,19 +1,18 @@
 import { useEffect } from "react";
-import Chat from "./Chat";
-import GroupChat from "./GroupChat";
-import GroupChatDetail from "./GroupChatDetail";
-import Detail from "./Detail";
-import List from "./List";
-import Login from "./Login";
-import Notification from "./Notification";
-import { Sidebar } from "./Sidebar";
+import Chat from "./components/Chat";
+import GroupChat from "./components/GroupChat";
+import GroupChatDetail from "./components/GroupChatDetail";
+import Detail from "./components/Detail";
+import List from "./components/List";
+import Login from "./components/Login";
+import Notification from "./components/Notification";
+import { Sidebar } from "./components/Sidebar";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "../utils/firebase";
-import useChatStore from "../stores/chatStore";
-import { useGroupChatStore } from "../stores/groupChatStore";
-import { useNavigationStore } from "../stores/navigationStore";
-import useUserStore from "../stores/userStore";
-import './index.css';
+import { auth } from "./utils/firebase";
+import useChatStore from "./stores/chatStore";
+import { useGroupChatStore } from "./stores/groupChatStore";
+import { useNavigationStore } from "./stores/navigationStore";
+import useUserStore from "./stores/userStore";
 
 
 const App = () => {

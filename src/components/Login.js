@@ -126,32 +126,33 @@ const Login = () => {
     };
 
     return (
-        <div className="login">
-            <div className="item">
+        <div className="chatify-login">
+            <div className="chatify-login-item">
                 <h2>Welcome back,</h2>
-                <form onSubmit={handleUserLogin}>
-                    <input type="text" placeholder="Email" name="email"/>
-                    <input type="password" placeholder="Password" name="password"/>
+                <form className="chatify-login-form" onSubmit={handleUserLogin}>
+                    <input className="chatify-login-input" type="text" placeholder="Email" name="email"/>
+                    <input className="chatify-login-input" type="password" placeholder="Password" name="password"/>
                     <button disabled={loading}>{loading ? "Loading" : "Sign In"}</button>
                 </form>         
             </div>
             <div className="separator"></div>
-            <div className="item">
+            <div className="chatify-login-item">
                 <h2>Create an Account</h2>
-                <form onSubmit={handleUserRegister}>
-                    <label htmlFor="file">
+                <form className="chatify-login-form" onSubmit={handleUserRegister}>
+                    <label className="avatar-upload" htmlFor="file">
                         <img src={userAvatar.url || "/assets/images/avatar.png"} alt=""/>
                         Upload an image
                     </label>
                     <input
+                      className="chatify-login-input"
                       type="file" 
                       id="file" 
                       style={{ display: "none" }} 
                       onChange={handleUserAvatar}
                     />
-                    <input type="text" placeholder="Username" name="username"/>
-                    <input type="text" placeholder="Email" name="email"/>
-                    <input type="password" placeholder="Password" name="password"/>
+                    <input className="chatify-login-input" type="text" placeholder="Username" name="username"/>
+                    <input className="chatify-login-input" type="text" placeholder="Email" name="email"/>
+                    <input className="chatify-login-input" type="password" placeholder="Password" name="password"/>
                     <button disabled={loading}>{loading ? "Loading" : "Sign Up"}</button>
                 </form>         
             </div>
