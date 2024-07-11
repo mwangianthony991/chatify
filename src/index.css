@@ -6,19 +6,12 @@
 }
 
 body {
-  background-image: url('../../public/assets/images/alt-bg.jpg');
+  background-image: url('../public/assets/images/alt-bg.jpg');
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   color: white;
-}
-
-:root {
-  --sidebar-background-color: #313443;
-  --active-sidebar-link-color: #22252E;
-  --hover-sidebar-link-color: --active-sidebar-link-color;
-  --active-link-color: #98D7EC;
 }
 
 .container {

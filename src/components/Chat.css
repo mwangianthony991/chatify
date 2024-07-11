@@ -91,7 +91,6 @@
                             background-color: #5183fe;
                         }
                         span {
-                            /* margin: 20px 0px -5px 5px; */
                             font-size: 10px;
                             align-self: flex-end;
                             padding: 0px 5px 5px 0px;
@@ -197,7 +196,7 @@
             .emoji-picker {
                 position: absolute;
                 bottom: 50px;
-                left: 0;
+                left: -300px;
             }
         }
 
